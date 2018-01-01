@@ -3,10 +3,11 @@
 Get list of files and folders stored in Google Drive.
 
 # Setup
-- Run `composer install` command from terminal in root directory of application
+- Run `composer install` command from terminal in root directory of application.
 
 # Usage
-<?
+<pre><code>&lt;?php
+
   require('google-client.php');
 
   // Get the API client and construct the service object.
@@ -28,3 +29,5 @@ Get list of files and folders stored in Google Drive.
       printf("%s (%s)\n", $file->getName(), $file->getId());
     }
   }
+?&gt;
+</code></pre>
