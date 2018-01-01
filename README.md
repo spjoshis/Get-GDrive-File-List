@@ -3,7 +3,7 @@
 Get list of files and folders stored in Google Drive.
 
 # Setup
-- Run `composer instal` command from terminal in root directory of application
+- Run `composer install` command from terminal in root directory of application
 
 # Usage
 <?
